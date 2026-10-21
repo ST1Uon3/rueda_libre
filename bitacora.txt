@@ -1,0 +1,14 @@
+4.
+URL: http://127.0.0.1:5500/index.html.
+host: 127.0.0.1:5500.
+puerto: 5.500 o 80.
+ruta: index.html.
+metodo de petición: get.
+còdigo de estado: 304.
+
+5. 404: indica que el navegador logró comunicarse con el servidor, pero no encontró la página o el recurso solicitado.
+
+6. 
+HTML: principalmente es la que se encarga de la estructura del contenido.
+CSS: se encargará de la presentaciòn(decoración).
+JAVASCTIPT: su trabajo es la funcionalidad de el sitio web. 
