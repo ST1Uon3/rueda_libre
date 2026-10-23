@@ -13,4 +13,4 @@ HTML: principalmente es la que se encarga de la estructura del contenido.
 CSS: se encargará de la presentaciòn(decoración).
 JAVASCTIPT: su trabajo es la funcionalidad de el sitio web.
 
-4.7 desde index.html para entrar a tarifas o reservas.html use paginas/reservas o tarifas.html y enter, desde reservas o tarifas.html para entara a index.html  use ../index.html y enter 
+4.7 desde index.html para entrar a tarifas o reservas.html use paginas/reservas o tarifas.html y enter, desde reservas o tarifas.html para entara a index.html  use ../index.html y enter. 
