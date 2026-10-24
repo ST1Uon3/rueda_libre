@@ -75,4 +75,5 @@ DIA 2
       Azul Noche: Títulos y encabezado
       Crema: Fondo general
       Gris Asfalto: Texto secundario
+2.8.7 https://st1uon3.github.io/rueda_libre/
 
