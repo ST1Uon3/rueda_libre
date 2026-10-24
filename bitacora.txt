@@ -62,3 +62,6 @@ DIA 2
         article: Instrucciones paso a paso para completar la compra o reserva.
 
         footer: Información de contacto y copyright.
+
+2.6 En "tus datos" ingrese cammpos de texto en nombres y apellidos. En "tu alquiler" puse una seccion con opciones desplegables para darle a los clientes mas claridad
+    y en "confirmación" una caja de confirmación para mas practicidad
