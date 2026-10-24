@@ -23,6 +23,59 @@
         <a href="turuedalibre@gmail.com">Contáctanos aquí</a>
        <aside>
          <h2>Horario de atención</h2>
+         <section>
+            <h3>Formulario de reserva</h3>
+            <form action="enviar-datos" method="post">
+                <fieldset>
+                    <legend>Tus Datos</legend>
+
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Ingresa Nombres y Apellidos">
+                    <br>
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="example@gmail.com">
+                    <br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+57">
+                </fieldset>
+
+                
+                <br>
+                <fieldset>
+                    <legend>Tu Alquiler</legend>
+
+                    <label for="ruta">Selecciona tu Ruta:</label>
+                    <select name="ruta" id="ruta">
+                        <option value="rio">Río</option>
+                        <option value="parques">Parques</option>
+                        <option value="sabores de barrio">Sabores de Barrio</option>
+                        <option value="recorrido las palmas">Recorridos las palmas</option>
+                    </select>
+                    <br>
+                        <label for="fecha">Fecha que deseas viajar:</label>
+                        <input type="date" inputmode="fecha" name="fecha" required>
+                   
+                    <br>
+                    <label for="bicicleta"> Selecciona tu Tipo de Bicicleta</label>
+                    <select name="bicicleta" id="bicicleta">
+                        <option value="urbana">Urbana</option>
+                        <option value="montana">montaña</option>
+                        <option value="electrica">Electrica</option>
+                    </select>
+                </fieldset>
+
+                <br>
+                <fieldset>
+                    <legend>Confirmación</legend>
+
+                    <input type="checkbox" id="terminos" name="terminos required">
+                    <label for="terminos">Acepto los terminos, condiciones y politicas de privacidad</label>
+                
+                </fieldset>
+                <br>
+                 <button type="submit">Confirmar y Enviar datos</button>
+            </form>
+         </section>
 
         <ul>
             <li><strong>Lunes a Viernes</strong> 7:00 am-7:00 pm</li>
