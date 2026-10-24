@@ -1,3 +1,5 @@
+DIA 1
+
 1.4
 URL: http://127.0.0.1:5500/index.html.
 host: 127.0.0.1:5500.
@@ -14,3 +16,49 @@ CSS: se encargará de la presentaciòn(decoración).
 JAVASCTIPT: su trabajo es la funcionalidad de el sitio web.
 
 4.7 desde index.html para entrar a tarifas o reservas.html use paginas/reservas o tarifas.html y enter, desde reservas o tarifas.html para entara a index.html  use ../index.html y enter. 
+
+DIA 2
+
+2.1 Página de Inicio (index.html)
+
+    header: Rueda Libre 
+
+    nav: Menú de enlaces principales (adaptado a la ruta raíz).
+
+    main:
+
+        section: Bienvenida general a la plataforma.
+
+        article: Destacados de las rutas más populares.
+
+    footer: Información de contacto y copyright.
+
+    
+    Página de Tarifas y Rutas (paginas/tarifas.html)
+
+    header: Identidad de la marca.
+
+    nav: Menú de enlaces principales (adaptado con ruta relativa ../).
+
+    main:
+
+        section: Listado general de precios.
+
+        article: Detalle específico por cada ruta o destino disponible.
+
+   footer: Información de contacto y copyright.
+
+   
+    Página de Reservas (paginas/reservas.html)
+
+    header: Identidad de la marca.
+
+    nav: Menú de enlaces principales (adaptado con ruta relativa ../).
+
+    main:
+
+        section: Formulario interactivo para procesar la reserva.
+
+        article: Instrucciones paso a paso para completar la compra o reserva.
+
+        footer: Información de contacto y copyright.
