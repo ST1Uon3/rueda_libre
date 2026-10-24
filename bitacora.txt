@@ -63,5 +63,16 @@ DIA 2
 
         footer: Información de contacto y copyright.
 
-2.6 En "tus datos" ingrese cammpos de texto en nombres y apellidos. En "tu alquiler" puse una seccion con opciones desplegables para darle a los clientes mas claridad
+2.6 En "tus datos" ingrese campos de texto en nombres y apellidos. En "tu alquiler" puse una seccion con opciones desplegables para darle a los clientes mas claridad
     y en "confirmación" una caja de confirmación para mas practicidad
+
+2.8.2 el unico error que encontré fue que habian 2 "h1" cuando solo se puede 1, desde mi punto de vista 
+      no encontré otro tipo de error. acabé de encontrar otro error en tarifas y recorridos; el enlace que 
+      me debería llevar a reservar no carga. Le había puesto: "paginas/tarifas.html ignorando que estan en 
+      la misma carpeta. Otro es que el idioma estaba en ingles lo cambié a español
+2.8.4 Verde Ruta: Botones y enlaces
+      Naranja Pedal: Destacados y botones secundarios
+      Azul Noche: Títulos y encabezado
+      Crema: Fondo general
+      Gris Asfalto: Texto secundario
+
