@@ -81,3 +81,11 @@ DIA 2
 3.9.7 mi párrafo heredó la tipografia osea el estilo del texto, no heredó la decoración estructural en general.
 3.10.2 a mi si me aplicó la clase no encontre ninguna caunsante de problema.
 3.11.7 el único número que me aparece en el ancho es 708, asi que llego a la conclusión de que este es un valor total, definitivo.
+3.12.7 vaya miniretos! el primer día construí las bases de lo que hiba a ser esta hermosa página, titulos
+       y sus subtitulos y descripciones. El segundo día entre a el mundo de los formularios y todas sus clases
+       desde una "checkbox" hasta propiedades que no te dejan sebrepasar cierta cantidad. Por ultimo, conocí
+       a el dichoso "css" permitiendome asi aprender sus disttintas y variadas funciones de decoración de 
+       espacios, excelente herramienta de trabajo, dificil de recordar sus comandos pero vale la pena hacer 
+       el esfuerzo. Mejoraría de mi la capacidad de trabajar bajo presión y por supuesto mi flexibilidad, teniendo
+       conocimiento; que el tema de la tecnología y su desarrollo era ajeno a mí hasta hace unos pocos días; y considero así,
+       que a pesar de todo hice un buen trabajo.

@@ -1,3 +1,4 @@
+/*tamaños de caja y alturas relativas*/
 html {
   box-sizing: border-box;
 }
@@ -8,12 +9,24 @@ html {
   box-sizing: inherit;
 }
 
+main {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding: var(--espacio-md);
+}
+
+.portada {
+  min-height: 80vh;
+}
+
+/*raíz y variables*/
 :root{
     --Verde-Ruta: #1E7A4F; 
     --Naranja-Pedal: #F39A2B;
     --Azul-Noche: #14213D;
     --Crema: #FAF6EF;
     --Gris-Asfalto: #5B6470;
+    --color-menu: rgba(0, 0, 0, 0.06);
 
     --fuente-titulos: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     --fuente-cuerpo: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -26,16 +39,8 @@ html {
 
 }
 
-main {
-  max-width: 60rem;
-  margin-inline: auto;
-  padding: var(--espacio-md);
-}
 
-.portada {
-  min-height: 80vh;
-}
-    
+  /*coloración y fuentes de tipografía*/  
 body{
     background-color: var(--Crema);
     color: var(--Gris-Asfalto);
@@ -60,6 +65,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
+/*formulario*/
 mi.formulario {
   max-width: 400px;
   margin: 20px auto;
@@ -102,6 +108,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
+/*organización de la lista de el menú*/
 #menu a {
   color: var(--gris-asfalto);
 }
@@ -117,6 +124,14 @@ button[type="submit"] {
   outline: 3px solid var(--verde-ruta);
   outline-offset: 3px;
   background-color: var(--Verde-Ruta)(0, 0, 0, 0.06);
+}
+
+#menu {
+  display: flex;
+  gap: var(--espacio-md);
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .btn-reservar {
@@ -149,6 +164,7 @@ button[type="submit"] {
   background-color: rgba(0, 0, 0, 0.06);
 }
 
+/*tablas*/
 #btabla {
   width: 100%;
   border-collapse: collapse;
@@ -202,7 +218,7 @@ button[type="submit"] {
   margin: 20px 0;
 }
 
-
+/*organización de margen y rellenos de espacios en "nuestros servicios*/
 .servicios {
   display: flex;
   flex-wrap: wrap;
@@ -225,18 +241,55 @@ button[type="submit"] {
   border-radius: var(--espacio-sm);
 }
 
-#menu {
-  display: flex;
-  gap: var(--espacio-md);
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+/*etiquta de nuevo*/
+#alquiler {
+  position: relative;
+}
+
+#etiqueta-nuevo {
+  position: absolute;
+  top: var(--espacio-md);             
+  right: var(--espacio-md);             
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radio);         
+  background-color: var(--Crema);
+  color: var(--Verde-Ruta);           
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/*link y logo de whatsapp*/
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;          
+    right: 30px;           
+    width: 60px;            
+    height: 60px;           
+    background-color: var(--Verde-Ruta); 
+    border-radius: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--Crema); 
+    z-index: 9999;         
+    transition: transform 0.3s ease; 
 }
 
 
+.btn-whatsapp:hover {
+    transform: scale(1.1);  
+}
 
 
-
+.btn-whatsapp img {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    right: 30px;
+    
+}
 
 
 
