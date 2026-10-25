@@ -79,3 +79,4 @@ DIA 2
 
 
 3.9.7 mi párrafo heredó la tipografia osea el estilo del texto, no heredó la decoración estructural en general
+3.10.2 a mi si me aplicó la clase no encontre ninguna caunsante de problema

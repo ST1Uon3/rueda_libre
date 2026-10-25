@@ -14,10 +14,10 @@
          <p>Elige tu horario, aparta tu bici y sal a recorrer la ciudad a tu ritmo.</p>
          <br>
          <nav aria-label="Navegación principal">
-            <ul>
+            <ul id="menu">
                 <li><a href="../index.html" target="_blank">Menú principal</a></li>
                 <li><a href="tarifas.html" target="_blank">Tarifas y recorridos</a></li>
-                <li><a href="reservas.html">Nuestro horario de atención</a></li>
+                <li><a href="reservas.html" class="activo">Nuestro horario de atención</a></li>
             </ul>
          </nav>
        </header>
@@ -32,7 +32,7 @@
         </ul>
          <section>
             <h3>Formulario de reserva</h3>
-            <form action="enviar-datos" method="post" class="mi.Formulario">
+            <form action="enviar-datos" method="post">
                 <fieldset>
                     <legend>Tus Datos</legend>
 
@@ -62,7 +62,7 @@
                         <option value="recorrido las palmas">Recorridos las palmas</option>
                     </select>
                     <br>
-                        <label for="fecha">Fecha que deseas viajar:</label>
+                        <label>Fecha que deseas viajar:</label>
                         <input type="date" inputmode="fecha" name="fecha" required min="2026-11-01" max="2026-12-31">
                    
                     <br>

@@ -82,4 +82,49 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
+#menu a {
+  color: var(--gris-asfalto);
+}
 
+#menu a.activo {
+  color: var(--verde-ruta);
+  font-weight: 600;
+}
+#menu a:hover {
+  color: var(--Verde-Ruta);
+}
+#menu a:focus-visible {
+  outline: 3px solid var(--verde-ruta);
+  outline-offset: 3px;
+  background-color: var(--Verde-Ruta)(0, 0, 0, 0.06);
+}
+
+.btn-reservar {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--verde-ruta);
+  border-radius: 6px;
+  background-color: var(--Crema);
+  color: var(--Verde-Ruta);          
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+.btn-reservar:hover {
+  background-color: var(--verde-ruta);
+  color: var(--Naranja-Pedal);
+}
+.btn-reservar:focus-visible {
+  outline: 3px solid var(--Gris-Asfalto);
+  outline-offset: 3px;
+}
+
+#menu a:focus-visible {
+  outline: 3px solid var(--verde-ruta);
+  outline-offset: 3px;
+}
+#menu li:focus-within {
+  background-color: rgba(0, 0, 0, 0.06);
+}
