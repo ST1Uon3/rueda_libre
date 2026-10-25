@@ -1,0 +1,85 @@
+:root{
+    --Verde-Ruta: #1E7A4F; 
+    --Naranja-Pedal: #F39A2B;
+    --Azul-Noche: #14213D;
+    --Crema: #FAF6EF;
+    --Gris-Asfalto: #5B6470;
+
+    --fuente-titulos: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --fuente-cuerpo: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+    --espacio-xs: 0.25rem;
+    --espacio-sm: 0.5rem;
+    --espacio-md: 1rem;
+    --espacio-lg: 1.5rem;
+    --espacio-xl: 2.5rem;
+
+}
+    
+body{
+    background-color: var(--Crema);
+    color: var(--Gris-Asfalto);
+    font-family: var(--fuente-cuerpo);
+    padding: var(--espacio-md);
+    bottom: var(--Verde-Ruta);
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--Azul-Noche);
+    font-family: var(--fuente-titulos);
+    margin-bottom: var(--espacio-sm);
+}
+
+a:link, a:visited {
+  background-color: var(--Crema);
+  color: var(--Verde-Ruta);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+mi.formulario {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--Crema);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px var(--Azul-Noche)(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="select"],
+input[type="date"],
+input[type="select"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px var(--Azul-Noche);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: var(--fuente-cuerpo); 
+}
+label {
+  font-weight: bold;
+  color: var(--Azul-Noche);
+  margin-bottom: 5px;
+  display: block;
+}
+button[type="submit"] {
+  width: 100%;
+  background-color: var(--Crema);
+  color: var(--Verde-Ruta);
+  padding: 12px;
+  border: 1px var(--Azul-Noche);
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+

@@ -77,3 +77,5 @@ DIA 2
       Gris Asfalto: Texto secundario
 2.8.7 https://st1uon3.github.io/rueda_libre/
 
+
+3.9.7 mi párrafo heredó la tipografia osea el estilo del texto, no heredó la decoración estructural en general
