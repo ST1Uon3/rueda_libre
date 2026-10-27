@@ -32,21 +32,26 @@
         </ul>
          <section>
             <h3>Formulario de reserva</h3>
-            <form action="enviar-datos" method="post">
+            <form action="enviar-datos" method="post" class="formulario">
                 <fieldset>
                     <legend>Tus Datos</legend>
-
+                    <div class="campos">
+                        <div class="cortos">
                     <label for="nombre">Nombre Completo:</label>
-                    <input type="text" name="nombre" id="nombre" required minlength="3" placeholder="Ingresa Nombres y Apellidos">
+                    <input type="text" name="nombre"  required minlength="3" placeholder="Ingresa Nombres y Apellidos">
+                        </div>
                     <br>
+                    <div class="cortos">
                     <label for="documento">Documento:</label>
                     <input type="number" name="documento" id="documento" min="6" max="10" required>
+                    </div>
+                    </div>
                     <br>
                     <label for="correo">Correo Electronico:</label>
-                    <input type="email" id="correo" name="correo" required placeholder="example@gmail.com">
+                    <input type="email"  name="correo" required placeholder="example@gmail.com">
                     <br>
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="+57" maxlength="10" pattern="3[0-9] {10}">
+                    <input type="tel" name="telefono" placeholder="+57" maxlength="10" pattern="3[0-9] {10}">
                 </fieldset>
 
                 
@@ -55,7 +60,7 @@
                     <legend>Tu Alquiler</legend>
 
                     <label for="ruta">Selecciona tu Ruta:</label>
-                    <select name="ruta" id="ruta">
+                    <select name="ruta" >
                         <option value="rio">Río</option>
                         <option value="parques">Parques</option>
                         <option value="sabores de barrio">Sabores de Barrio</option>
@@ -67,14 +72,14 @@
                    
                     <br>
                     <label for="bicicleta"> Selecciona tu Tipo de Bicicleta</label>
-                    <select name="bicicleta" id="bicicleta">
+                    <select name="bicicleta" >
                         <option value="urbana">Urbana</option>
                         <option value="montana">montaña</option>
                         <option value="electrica">Electrica</option>
                     </select>
                     <br>
                     <label for="cantidad">Cantidad de bicicletas:</label>
-                    <input type="number" id="cantidad" name="cantidad" required placeholder="Nº Bicicletas" min="1" max="6">
+                    <input type="number"  name="cantidad" required placeholder="Nº Bicicletas" min="1" max="6">
                 </fieldset>
 
                 <br>
@@ -91,7 +96,7 @@
                 <br>
                  <label for="comentarios">Comentarios</label>
                  <br>
-                 <textarea name="comentarios" id="comentarios" maxlength="300" placeholder="Opiniones, quejas, dudas. Sientete libre de expresarte"></textarea>
+                 <textarea name="comentarios"  maxlength="300" placeholder="Opiniones, quejas, dudas. Sientete libre de expresarte"></textarea>
             </form>
          </section>
 

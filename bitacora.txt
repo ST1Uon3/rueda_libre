@@ -1,5 +1,6 @@
-DIA 1
+SEMANA 1
 
+DIA 1
 1.4
 URL: http://127.0.0.1:5500/index.html.
 host: 127.0.0.1:5500.
@@ -17,8 +18,8 @@ JAVASCTIPT: su trabajo es la funcionalidad de el sitio web.
 
 4.7 desde index.html para entrar a tarifas o reservas.html use paginas/reservas o tarifas.html y enter, desde reservas o tarifas.html para entara a index.html  use ../index.html y enter. 
 
-DIA 2
 
+DIA 2
 2.1 Página de Inicio (index.html)
 
     header: Rueda Libre 
@@ -78,6 +79,7 @@ DIA 2
 2.8.7 https://st1uon3.github.io/rueda_libre/
 
 
+DÍA 3
 3.9.7 mi párrafo heredó la tipografia osea el estilo del texto, no heredó la decoración estructural en general.
 3.10.2 a mi si me aplicó la clase no encontre ninguna caunsante de problema.
 3.11.7 el único número que me aparece en el ancho es 708, asi que llego a la conclusión de que este es un valor total, definitivo.
@@ -89,3 +91,21 @@ DIA 2
        el esfuerzo. Mejoraría de mi la capacidad de trabajar bajo presión y por supuesto mi flexibilidad, teniendo
        conocimiento; que el tema de la tecnología y su desarrollo era ajeno a mí hasta hace unos pocos días; y considero así,
        que a pesar de todo hice un buen trabajo.
+
+
+SEMANA 2
+
+DÍA 1
+1.1.5 Lo que veo que pasa con el encabezado y el menú es que se van encogiendo y se forman en 
+      hilera hacia abajo; y con el pie de página no veo que pase nada, simplemente voy cerrando la 
+      pantalla a tal punto que tengo que correr demasiadas veces el cursor(de lado a lado) para
+      poder verlo.
+1.2.6 1280 px, se ven 3 columnas .
+      900 px, se ve 1 y 1/4 de otra.
+      500 px, se ve lo mismo que en 900 px, pero ya mas delgado.
+1.3.5 portada: usé grid por grid es ma general, mas macro.
+      galería: usé grid porque grid es de organización mas general, como dije anteriormente: "mas macro"
+      reservas: usé flex porque lo que tenia que hacer era de una sola fila.
+      fila del formulario: flex porque eran elementos uno debajo de el otro en una sola columna.
+      encabezado: usé flex por que a diferencia de grid es mas micro enfocandose solo en partes pequeñas como esta.
+      pie: usé flex porque es unidimensional manejando solo los pocos elementos que estan uno debajo del otro.
