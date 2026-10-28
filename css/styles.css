@@ -394,6 +394,160 @@ button[type="submit"] {
   box-sizing: border-box; 
 }
 
+/*Mobile first*/
+container {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box; 
+}
+
+.rlencabezado {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--Azul-Noche);
+}
+
+
+.umenu {
+    display: none; 
+}
+
+.menu-toggle {
+    display: block;
+    background: var(--Crema);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 24px 0;
+}
+
+.card {
+    background: var(--Crema);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--Azul-Noche);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .portada {
+        max-width: 960px;
+    }
+    .galeria {
+      max-width: 960px;
+    }
+    .pie {
+      max-width: 960px;
+    }
+   
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 24px;
+    }
+  }
+
+  /*escritorio*/
+  @media (min-width: 1200px) {
+    .portada {
+        max-width: 960px;
+    }
+    .galeria {
+      max-width: 960px;
+    }
+    .pie {
+      max-width: 960px;
+    }
+
+    .rlencabezado{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+    .menu-toggle {
+        display: none;
+    }
+
+    .umenu {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+    }
+
+    
+    .main-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.parrafo {
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    table thead {
+        display: none;
+    }
+    
+    table, tbody, tr, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    tr {
+        margin-bottom: 20px;
+        border: 1px solid var(--Crema);
+        border-radius: 6px;
+        box-shadow: 0 2px 4px var(--Azul-Noche);
+        background-color: var(--Crema);
+        padding: 8px 0;
+    }
+    
+    td {
+        font-size: 14px;         
+        text-align: right;
+        padding: 10px 15px;       
+        padding-left: 45%;        
+        position: relative;
+        border: none;
+        border-bottom: 1px solid var(--Crema);
+    }
+    
+    td:last-child {
+        border-bottom: none;
+    }
+    
+   
+    td::before {
+        content: attr(data-label);
+        font-size: 13px;          
+        font-weight: bold;
+        color: var(--Azul-Noche);
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        text-align: left;
+    }
+}
+
+
+
+
 
 
 

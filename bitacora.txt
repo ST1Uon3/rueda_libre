@@ -109,3 +109,6 @@ DÍA 1
       fila del formulario: flex porque eran elementos uno debajo de el otro en una sola columna.
       encabezado: usé flex por que a diferencia de grid es mas micro enfocandose solo en partes pequeñas como esta.
       pie: usé flex porque es unidimensional manejando solo los pocos elementos que estan uno debajo del otro.
+1.4.6 el primer ploblema fue que apliqué el codigo en css pero no dio en html, era poruqe no le había puesto el nombre de la clase, 
+      el segundo fue que si me dío pero no se ponia en fila, simplemente se alargaba osea, fila pero horizontal, había puesto
+      "display:flex", en vez de display:block", esos fueron los unicos dos problemas que tuve 
