@@ -114,5 +114,12 @@ DÍA 1
       "display:flex", en vez de display:block", esos fueron los unicos dos problemas que tuve.
 
 DÍA 2
-2.1.5  22.24.04; en css en la flota me invertí 9 lineas en total, en bootstrap fue el codigo completo con la diferencia de que debia agregar
+2.5.5  22.24.04; en css en la flota me invertí 9 lineas en total, en bootstrap fue el codigo completo con la diferencia de que debia agregar
       la palabara o comando "class" mas veces casi que en todas las lineas
+2.6.6 text-left: logico, pero no tanto; pone el texto en la parte izquierda. 
+      text-muted: le pone color gris al texto.
+      d-flex: convierte el contenedor en flexbox, permitiendo organizar los hijos de manera rapida.
+      justify-content: alinea y distribuye los elementos hijos horizontalmente (en el eje principal) dentro de un contenedor flexible.
+      sus usos mas comunes son en combinación con: -start, -center, -between.
+      bi bi-arrow-right: inserta un ícono de una flecha apuntando hacia la derecha generalmente usada para indicar una acción
+      o un enlace ("siguiente", "ver más", etc.).
