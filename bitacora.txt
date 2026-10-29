@@ -123,3 +123,14 @@ DÍA 2
       sus usos mas comunes son en combinación con: -start, -center, -between.
       bi bi-arrow-right: inserta un ícono de una flecha apuntando hacia la derecha generalmente usada para indicar una acción
       o un enlace ("siguiente", "ver más", etc.).
+2.7.4 por el momento he encontrado solo dos problemas, el problema con los colores cual es mas importante que cual, para solucionarlo
+      puse a bootstrap como principaly que styles.css pase a un segundo plano, y el otro que son varios en uno, es el de las medidas
+      "margin", "padding", "border" etc.., con styles es diferente a los que ya vienen predeterminados en bootstrap, hice lo mismo
+      que con los colores, aumentar especifidad, tal vez adelante encuentre mas, los documentare si ese es el caso
+2.8.4 16 minutos en tarifas y 20 en reservas, aperecieron muchas mas dificultades se me modificaron los botones que tenía con css
+      gracias a bootstrap y me quedó como una combinación mal hecha, entre otros; asi que tuve que eliminar en css lo que había hecho
+      y mofificarlo con bootstrap, que gracias a que es una biblioteca, es solo copiar, pegar, modificar pereo igual tuve que prestar atención 
+      y aprender mas sobre "class", el problema con bootstrap es que casi no se pueden hacer modificaciones, trae su estructura, su tamaño, y a veces 
+      sus colores ya puestos asi que es solo adaptarse a lo que se encuentra y trata de no dañar la estructura haciendole ciertas modificaciones; para 
+      concluir bootstrap es de gran funcionalidad y practicidad que css puro, pero al venir sus estructuras ya predeterminadas no permite darle ese estilo 
+      como tan propio que uno puede aplicar al usar css.
