@@ -111,4 +111,8 @@ DÍA 1
       pie: usé flex porque es unidimensional manejando solo los pocos elementos que estan uno debajo del otro.
 1.4.6 el primer ploblema fue que apliqué el codigo en css pero no dio en html, era poruqe no le había puesto el nombre de la clase, 
       el segundo fue que si me dío pero no se ponia en fila, simplemente se alargaba osea, fila pero horizontal, había puesto
-      "display:flex", en vez de display:block", esos fueron los unicos dos problemas que tuve 
+      "display:flex", en vez de display:block", esos fueron los unicos dos problemas que tuve.
+
+DÍA 2
+2.1.5  22.24.04; en css en la flota me invertí 9 lineas en total, en bootstrap fue el codigo completo con la diferencia de que debia agregar
+      la palabara o comando "class" mas veces casi que en todas las lineas
