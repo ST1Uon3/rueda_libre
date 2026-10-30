@@ -1,135 +1,195 @@
 <!DOCTYPE html>
-<html lang="Es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="../img/logo.jpg" alt="Logo Rueda Libre" width="300px" height= "300px">
-    <header>
-        <title>Tarifas Rueda Libre</title>
-    <p>Descubre la ciudad a tu ritmo. Ofrecemos bicicletas en excelente estado, listas para acompañarte en paseos cortos, recorridos de un día completo o aventuras de varios días. Elige la tarifa que mejor se adapte a ti, sin costos ocultos ni sorpresas.
+    <title>Tarifas Rueda Libre</title>
 
-        Todos nuestros alquileres incluyen casco, candado de seguridad y un mapa de rutas recomendadas. Además, si tienes cualquier inconveniente durante tu recorrido, estamos a tu disposición para ayudarte.
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet">
 
-        Consulta nuestras opciones por hora, medio día o día completo, y reserva con anticipación para asegurar tu bicicleta. ¡Pedalea con nosotros!</p>
-    
 
-    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+
+    <body>
     <main>
-        <nav aria-label="Navegación principal">
-            <ul class="umenu">
-                <li><a href="../index.html" target="_blank">Menú principal</a></li>
-                <li><a href="tarifas.html" class="activo">Tarifas y recorridos</a></li>
-                <li><a href="reservas.html" target="_blank">Nuestro horario de atención</a></li>
-            </ul>
+        
+       <nav class="navbar navbar-expand-lg navbar-light bg-crema border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <span class="icono-contenedor">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
+    <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z"/>
+  </svg>
+</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active rounded px-3 sombra-hover" aria-current="page" href="../index.html">
+                    <span class="icono-contenedor">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+    <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z"/>
+  </svg></span>
+                  </a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle rounded px-3 sombra-hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="icono-contenedor">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-sort-down" viewBox="0 0 16 16">
+    <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+  </svg>
+</span> 
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../index.html">Rueda Libre</a></li>
+                    <li><a class="dropdown-item" href="reservas.html">Reservar</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="reservas.html">Horario de Atención</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </nav>
-    </header>
-       <section>
-         <table id="btabla">
-           <caption><strong>Tarifa de Bicicletas</strong></caption>
-             <thead>
-            <tr>
-            <th>Tipo de bicicleta</th>
-            <th>1 hora</th>
-            <th>Medio día(4 h)</th>
-            <th>Día completo</th>
 
-        </tr>
-        </thead>
-       <tbody>
-         <tr>
-            <td>Urbana</td>
-            <td>10.000</td>
-            <td>30.000</td>
-            <td>50.000</td>
-        </tr>
-        <tr>
-            <td>Montaña</td>
-            <td>15.000</td>
-            <td>45.000</td>
-            <td>70.000</td>
-        </tr>
-        <tr>
-            <td>Electrica</td>
-            <td>25.000</td>
-            <td>70.000</td>
-            <td>110.000</td>
-        </tr>
-       </tbody>
-        </table>
-        <p><strong>Recuerda:</strong>Todas las tarifas incluyen casco y candado.</p>
-        
-       </section>
-        <br>
+        <div class="container mb-5">
+            
+            <section class="row row-cols-1 row-cols-lg-2 g-4 items-start mb-5">
+                <div>
+                    <div class="table-responsive">
+                        <table id="btabla" class="table table-hover table-striped border align-middle">
+                            <caption class="caption-top text-dark h5 mb-3"><strong>Tarifa de Bicicletas</strong></caption>
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Tipo de bicicleta</th>
+                                    <th>1 hora</th>
+                                    <th>Medio día (4 h)</th>
+                                    <th>Día completo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Urbana</strong></td>
+                                    <td>$10.000</td>
+                                    <td>$30.000</td>
+                                    <td>$50.000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Montaña</strong></td>
+                                    <td>$15.000</td>
+                                    <td>$45.000</td>
+                                    <td>$70.000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Eléctrica</strong></td>
+                                    <td>$25.000</td>
+                                    <td>$70.000</td>
+                                    <td>$110.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-muted"><i class="bi bi-info-circle-fill text-primary"></i> <strong>Recuerda:</strong> Todas las tarifas incluyen casco y candado.</p>
+                </div>
+            </section>
 
-         <section>
-            <table id="rtabla">
-           <caption><strong>Tarifa de Recorridos</strong></caption>
-             <thead>
-            <tr>
-            <th>Recorrido</th>
-            <th>Distancia</th>
-            <th>Duración</th>
-            <th>Nivel</th>
-            <th>Precio por persona</th>
+            
+            <section class="row row-cols-1 row-cols-lg-2 g-4 mb-5">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table id="rtabla" class="table table-hover table-striped border align-middle">
+                            <caption class="caption-top text-dark h5 mb-3"><strong>Tarifa de Recorridos</strong></caption>
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Recorrido</th>
+                                    <th>Distancia</th>
+                                    <th>Duración</th>
+                                    <th>Nivel</th>
+                                    <th>Precio por persona</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Río y parques</strong></td>
+                                    <td>12 Km</td>
+                                    <td>2 h</td>
+                                    <td><span class="badge bg-success">Fácil</span></td>
+                                    <td>$45.000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Sabores de barrio</strong></td>
+                                    <td>18 Km</td>
+                                    <td>3 h</td>
+                                    <td><span class="badge bg-warning text-dark">Medio</span></td>
+                                    <td>$60.000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Recorrido las palmas</strong></td>
+                                    <td>25 Km</td>
+                                    <td>4 h</td>
+                                    <td><span class="badge bg-danger">Difícil</span></td>
+                                    <td>$85.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-muted"><strong>Recuerda:</strong> los recorridos salen sábados y domingos a las 7:00 a.m.</p>
+                </div>
 
-        </tr>
-        </thead>
-       <tbody>
-         <tr>
-            <td>Río y parques</td>
-            <td>12 Km</td>
-            <td>2 h</td>
-            <td>Fácil</td>
-            <td>45.000</td>
-        </tr>
-         <tr>
-            <td>Sabores de barrio</td>
-            <td>18 Km</td>
-            <td>3 h</td>
-            <td>Medio</td>
-            <td>60.000</td>
-        </tr>
-        <tr>
-            <td>Recorrido las palmas</td>
-            <td>25 Km</td>
-            <td>4 h</td>
-            <td>Difícil</td>
-            <td>85.000</td>
-        </tr>
-       </tbody>
-        </table>
-        <p><strong>Recuerda:</strong>los recorridos salen sábados y domingos a las 7:00 a.m</p>
-       <aside>
-        <h4>¿Que llevar?</h4>
-        <ul>
-            <li>Ropa cómoda.</li>
-            <li>Agua.</li>
-            <li> Protector solar.</li>
-            <li>documento de identidad.</li>
+                <div class="col-lg-4">
+                    <aside class="card bg-light p-4 border border-dark rounded">
+                        <h4 class="card-title text-primary border-bottom pb-2">¿Qué llevar?</h4>
+                        <ul class="list-group list-group-flush bg-transparent">
+                            <li class="list-group-item bg-transparent ps-0">👕 Ropa cómoda.</li>
+                            <li class="list-group-item bg-transparent ps-0">💧 Agua.</li>
+                            <li class="list-group-item bg-transparent ps-0">☀️ Protector solar.</li>
+                            <li class="list-group-item bg-transparent ps-0">🪪 Documento de identidad.</li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
 
-       </aside>
-        </ul>
-
-        
-         </section>
-         <a href="reservas.html" class="btn-reservar" target="_blank">Reservar ahora</a>
-        <br>
-        <a href="../index.html">Volver al menú principal</a>
-        
+            
+            <div class="d-flex flex-column flex-sm-row gap-3 align-items-center justify-content-center mt-5">
+              
+                <a href="reservas.html" class="btn btn-primary btn-lg px-5 shadow-sm sombra-hover" target="_blank">Reservar ahora</a>
+                
+                
+                <a href="../index.html" class="btn btn-outline-secondary px-4 sombra-hover">Volver al menú principal</a>
+            </div>
+        </div>
     </main>
 
-     <footer>
+
+        <footer  class="pie">
+       <section>
         <h4>&copy Rueda Libre</h4><p>Todos los derechos reservados.</p>
+        <strong><p>Contácto</p></strong>
         <p><a href="turuedalibre@gmail.com">turuedalibre@gmail.com</a></p>
         <p>2026.</p>
+       </section>
 
     </footer>
 
-     <a href="https://wa.me/573000000000" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
-             <img src="../img/WhatsApp.svg.webp" alt="WhatsApp">
-        </a>
-    
+      <a href="https://wa.me/573000000000" class="btn-whatsapp icono-contenedor" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+  </svg>
+</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+
 </body>
 </html>

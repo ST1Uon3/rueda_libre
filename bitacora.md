@@ -1,4 +1,4 @@
-SEMANA 1
+# SEMANA 1
 
 DIA 1
 1.4
@@ -11,12 +11,14 @@ còdigo de estado: 304.
 
 1.5 404: indica que el navegador logró comunicarse con el servidor, pero no encontró la página o el recurso solicitado.
 
+
 1.6
 HTML: principalmente es la que se encarga de la estructura del contenido.
 CSS: se encargará de la presentaciòn(decoración).
 JAVASCTIPT: su trabajo es la funcionalidad de el sitio web.
 
 4.7 desde index.html para entrar a tarifas o reservas.html use paginas/reservas o tarifas.html y enter, desde reservas o tarifas.html para entara a index.html  use ../index.html y enter. 
+
 
 
 DIA 2
@@ -93,7 +95,7 @@ DÍA 3
        que a pesar de todo hice un buen trabajo.
 
 
-SEMANA 2
+# SEMANA 2
 
 DÍA 1
 1.1.5 Lo que veo que pasa con el encabezado y el menú es que se van encogiendo y se forman en 
@@ -134,3 +136,17 @@ DÍA 2
       sus colores ya puestos asi que es solo adaptarse a lo que se encuentra y trata de no dañar la estructura haciendole ciertas modificaciones; para 
       concluir bootstrap es de gran funcionalidad y practicidad que css puro, pero al venir sus estructuras ya predeterminadas no permite darle ese estilo 
       como tan propio que uno puede aplicar al usar css.
+
+DÍA 3
+3.12.7 Corregi styles.css le borre los comandos o estructuras que no eran funcionales gracias al bootstrap, ajuste botones puse las clases: verde-rut y 
+       naranja pedal a css agregué iconos, revise errores que hasta el momento corregí y ya no hay mas, ya la publiqué en github.
+
+
+      Antes:
+
+![Antes](img/Screenshot%20From%202026-10-30%2016-28-48.png)
+
+
+      Despues:
+
+![Despues](img/Screenshot%20From%202026-10-30%2016-27-34.png)
