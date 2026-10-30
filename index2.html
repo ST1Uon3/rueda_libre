@@ -12,7 +12,45 @@
 
 <body class="container">
     <main>
-        <header class="bg-light py-5 min-vh-100 d-flex align-items-center">
+
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background-color: var(--Crema);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index2.html">Rueda Libre</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index2.html">Pagina Principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Conocer 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="paginas/bootstraptarifas.html">Tarifas</a></li>
+            <li><a class="dropdown-item" href="paginas/bootstrapreservas.html">Reservar</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="paginas/bootstrapreservas.html">Horario de Atención</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+        <header class="bg---bs-primary: var(--Crema) py-5 min-vh-100 d-flex align-items-center">
     <div class="container">
       <div class="row align-items-center g-5">
         
@@ -162,54 +200,56 @@
       
       
       <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-          <img src="img/parques.avif"
-               class="card-img-top" alt="Parques" style="height: 200px; object-fit: cover;">
-          <div class="card-body p-4 d-flex flex-column">
-            <h3 class="h5 fw-bold card-title mb-3">Parques</h3>
-            <div class="d-flex justify-content-between text-muted small mt-auto">
-              <span>📍 Medellín</span>
-             <a href="../paginas/tarifas.html" target="_blank" class="btn btn-primary">Conocer más</a>
-              <span>📏 12 km</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
+  <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden sombra-hover">
+    <img src="img/parques.avif" class="card-img-top" alt="Parques" style="height: 200px; object-fit: cover;">
+    <div class="card-body p-4 d-flex flex-column">
+      <h3 class="h5 fw-bold card-title mb-3">Parques</h3>
       
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-          <img src="img/saboresdebario.jpg"
-               class="card-img-top" alt="Sabores de Barrio" style="height: 200px; object-fit: cover;">
-          <div class="card-body p-4 d-flex flex-column">
-            <h3 class="h5 fw-bold card-title mb-3">Sabores de Barrio</h3>
-            <div class="d-flex justify-content-between text-muted small mt-auto">
-              <span>📍 Medellín</span>
-              <a href="../paginas/tarifas.html" target="_blank" class="btn btn-primary">Conocer más</a>
-              <span>📏 18 km</span>
-            </div>
-          </div>
-        </div>
+   
+      <div class="d-flex justify-content-between text-muted small mb-3 mt-auto">
+        <span>📍 Medellín</span>
+        <span>📏 12 km</span>
       </div>
-
+      
      
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-          <img src="img/recorridopalmas.jpg" 
-               class="card-img-top" alt="Palmas" style="height: 200px; object-fit: cover;">
-          <div class="card-body p-4 d-flex flex-column">
-            <h3 class="h5 fw-bold card-title mb-3">Palmas</h3>
-            <div class="d-flex justify-content-between text-muted small mt-auto">
-              <span>📍 Medellín</span>
-              <a href="../paginas/tarifas.html" target="_blank" class="btn btn-primary">Conocer más</a>
-              <span>📏 25 km</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <a href="paginas/bootstraptarifas.html" target="_blank" class="btn btn-outline-secondary w-100">Conocer más</a>
     </div>
   </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden sombra-hover">
+    <img src="img/saboresdebario.jpg" class="card-img-top" alt="Sabores de Barrio" style="height: 200px; object-fit: cover;">
+    <div class="card-body p-4 d-flex flex-column">
+      <h3 class="h5 fw-bold card-title mb-3">Sabores de Barrio</h3>
+      
+      <div class="d-flex justify-content-between text-muted small mb-3 mt-auto">
+        <span>📍 Medellín</span>
+        <span>📏 18 km</span>
+      </div>
+      
+      <a href="paginas/bootstraptarifas.html" target="_blank" class="btn btn-outline-secondary w-100">Conocer más</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden sombra-hover">
+    <img src="img/recorridopalmas.jpg" class="card-img-top" alt="Palmas" style="height: 200px; object-fit: cover;">
+    <div class="card-body p-4 d-flex flex-column">
+      <h3 class="h5 fw-bold card-title mb-3">Palmas</h3>
+      
+      <div class="d-flex justify-content-between text-muted small mb-3 mt-auto">
+        <span>📍 Medellín</span>
+        <span>📏 25 km</span>
+      </div>
+      
+      <a href="paginas/bootstraptarifas.html" target="_blank" class="btn btn-outline-secondary w-100">Conocer más</a>
+    </div>
+  </div>
+</div>
+
+
 </section>
 
 <br>
@@ -236,7 +276,7 @@
      <p class="text-start text-muted">Moverse en bicicleta en trayectos urbanos cortos de hasta 5 km suele ser más rápido que el coche durante las horas pico, eliminando por completo el tiempo perdido buscando estacionamiento y evitando los atascos.</p>
 
     <div class="container py-4 bg-light border-top">
-  <!-- Contenedor Flex responsivo: columna por defecto, fila desde 'md' -->
+  
   <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-3">
     
   
@@ -245,11 +285,11 @@
     </div>
 
   
-    <div>
-      <a href="../paginas/reservas.html" target="_blank">
-        ¿Listo para rodar?<i class="bi bi-arrow-right"></i>
-      </a>
-    </div>
+    <div class="d-inline-block">
+  <a href="paginas/bootstrapreservas.html" class="btn btn-primary btn-lg shadow-sm sombra-hover" target="_blank">
+    ¿Listo para rodar? <i class="bi bi-arrow-right ms-2"></i>
+  </a>
+</div>
 
   </div>
 </div>
@@ -259,181 +299,10 @@
     </div>
 
 
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-         <table id="btabla">
-           <caption><strong>Tarifa de Bicicletas</strong></caption>
-             <thead>
-            <tr>
-            <th>Tipo de bicicleta</th>
-            <th>1 hora</th>
-            <th>Medio día(4 h)</th>
-            <th>Día completo</th>
-
-        </tr>
-        </thead>
-       <tbody>
-         <tr>
-            <td>Urbana</td>
-            <td>10.000</td>
-            <td>30.000</td>
-            <td>50.000</td>
-        </tr>
-        <tr>
-            <td>Montaña</td>
-            <td>15.000</td>
-            <td>45.000</td>
-            <td>70.000</td>
-        </tr>
-        <tr>
-            <td>Electrica</td>
-            <td>25.000</td>
-            <td>70.000</td>
-            <td>110.000</td>
-        </tr>
-       </tbody>
-        </table>
-        <p><strong>Recuerda:</strong>Todas las tarifas incluyen casco y candado.</p>
-        
-       </section>
-        <br>
-
-         <section>
-            <table id="rtabla">
-           <caption><strong>Tarifa de Recorridos</strong></caption>
-             <thead>
-            <tr>
-            <th>Recorrido</th>
-            <th>Distancia</th>
-            <th>Duración</th>
-            <th>Nivel</th>
-            <th>Precio por persona</th>
-
-        </tr>
-        </thead>
-       <tbody>
-         <tr>
-            <td>Río y parques</td>
-            <td>12 Km</td>
-            <td>2 h</td>
-            <td>Fácil</td>
-            <td>45.000</td>
-        </tr>
-         <tr>
-            <td>Sabores de barrio</td>
-            <td>18 Km</td>
-            <td>3 h</td>
-            <td>Medio</td>
-            <td>60.000</td>
-        </tr>
-        <tr>
-            <td>Recorrido las palmas</td>
-            <td>25 Km</td>
-            <td>4 h</td>
-            <td>Difícil</td>
-            <td>85.000</td>
-        </tr>
-       </tbody>
-        </table>
-        <p><strong>Recuerda:</strong>los recorridos salen sábados y domingos a las 7:00 a.m</p>
-       <aside>
-        <h4>¿Que llevar?</h4>
-        <ul>
-            <li>Ropa cómoda.</li>
-            <li>Agua.</li>
-            <li> Protector solar.</li>
-            <li>documento de identidad.</li>
-
-       </aside>
-        </ul>
-
-        
-         </section>
-         <a href="paginas/reservas.html" class="btn-reservar" target="_blank">Reservar ahora</a>
-        <br>
-        <a href="../index.html">Volver al menú principal</a>
-
-
-       <section>
-            <h3>Formulario de reserva</h3>
-            <form action="enviar-datos" method="post" class="border p-4 rounded bg-light">
-                <fieldset>
-                    <legend>Tus Datos</legend>
-                    <div class="campos">
-                        <div class="cortos">
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" name="nombre"  required minlength="3" placeholder="Ingresa Nombres y Apellidos" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    >
-                        </div>
-                    <br>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <label for="documento">Documento:</label>
-                    <input type="number" name="documento" id="documento" min="6" max="10" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    >
-                    </div>
-                    </div>
-                    <br>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <label for="correo">Correo Electronico:</label>
-                    <input type="email"  name="correo" required placeholder="example@gmail.com" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    >
-                    </div>
-                    <br>
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" name="telefono" placeholder="+57" maxlength="10" pattern="3[0-9] {10}" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    >
-                </fieldset>
-
-                
-                <br>
-                <fieldset>
-                    <legend>Tu Alquiler</legend>
-
-                    <label for="ruta">Selecciona tu Ruta:</label>
-                    <select name="ruta" >
-                        <option value="rio">Río</option>
-                        <option value="parques">Parques</option>
-                        <option value="sabores de barrio">Sabores de Barrio</option>
-                        <option value="recorrido las palmas">Recorridos las palmas</option>
-                    </select>
-                    <br>
-                        <label>Fecha que deseas viajar:</label>
-                        <input type="date" inputmode="fecha" name="fecha" required min="2026-11-01" max="2026-12-31" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                        >
-                   
-                    <br>
-                    <label for="bicicleta"> Selecciona tu Tipo de Bicicleta</label>
-                    <select name="bicicleta" >
-                        <option value="urbana">Urbana</option>
-                        <option value="montana">montaña</option>
-                        <option value="electrica">Electrica</option>
-                    </select>
-                    <br>
-                    <label for="cantidad">Cantidad de bicicletas:</label>
-                    <input type="number"  name="cantidad" required placeholder="Nº Bicicletas" min="1" max="6" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    >
-                </fieldset>
-
-                <br>
-                <fieldset>
-                    <legend>Confirmación</legend>
-
-                    <input type="checkbox" id="terminos" name="terminos required">
-                    <label for="terminos">Acepto los terminos, condiciones y politicas de privacidad</label>
-                
-                </fieldset>
-                <br>
-                 <button type="submit">Confirmar y Enviar datos</button>
-                 <br>
-                <br>
-                 <label for="comentarios">Comentarios</label>
-                 <br>
-                 <textarea name="comentarios"  maxlength="300" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                     placeholder="Opiniones, quejas, dudas. Sientete libre de expresarte" </textarea>
-            </form>
-         </section>
 
        
-        
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
     </body>
     </main>
     

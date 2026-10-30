@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Rueda Libre</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet">
+
+
+</head>
+    <body>
+    <main>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-var(--crema) border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rueda Libre</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active rounded px-3 sombra-hover" aria-current="page" href="../index2.html">Pagina Principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded px-3 sombra-hover" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle rounded px-3 sombra-hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Conocer
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../index2.html">Rueda Libre</a></li>
+                    <li><a class="dropdown-item" href="bootstraptarifas.html">Tarifas</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../index2.html#beneficios">¿por que Rueda Libre?</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- Botón de consulta/búsqueda con estilo outline secundario -->
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container my-5">
+            <h2>Horario de atención</h2>
+            <ul class="list-unstyled custom-list mb-5">
+                <li><strong>Lunes a Viernes:</strong> 7:00 am - 7:00 pm</li>
+                <li><strong>Sábados, Domingos y Festivos:</strong> 6:00 am - 2:00 pm</li>
+            </ul>
+
+            <section class="mx-auto" style="max-width: 600px;">
+                <h3 class="mb-4">Formulario de reserva</h3>
+                <!-- Formulario estilizado con Bootstrap -->
+                <form action="enviar-datos" method="post" class="card p-4 shadow-sm bg-crema">
+                    <fieldset class="mb-4">
+                        <legend class="h5 text-primary border-bottom pb-2">Tus Datos</legend>
+                        
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre Completo:</label>
+                            <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Ingresa Nombres y Apellidos" class="form-control">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="documento" class="form-label">Documento:</label>
+                            <input type="number" name="documento" id="documento" min="100000" max="9999999999" required class="form-control">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required placeholder="example@gmail.com" class="form-control">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+57" maxlength="10" pattern="3[0-9]{9}" class="form-control">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="mb-4">
+                        <legend class="h5 text-primary border-bottom pb-2">Tu Alquiler</legend>
+
+                        <div class="mb-3">
+                            <label for="ruta" class="form-label">Selecciona tu Ruta:</label>
+                            <select id="ruta" name="ruta" class="form-select">
+                                <option value="rio">Río</option>
+                                <option value="parques">Parques</option>
+                                <option value="sabores de barrio">Sabores de Barrio</option>
+                                <option value="recorrido las palmas">Recorridos las palmas</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha que deseas viajar:</label>
+                            <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31" class="form-control">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="bicicleta" class="form-label">Selecciona tu Tipo de Bicicleta:</label>
+                            <select id="bicicleta" name="bicicleta" class="form-select">
+                                <option value="urbana">Urbana</option>
+                                <option value="montana">Montaña</option>
+                                <option value="electrica">Eléctrica</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="cantidad" class="form-label">Cantidad de bicicletas:</label>
+                            <input type="number" id="cantidad" name="cantidad" required placeholder="Nº Bicicletas" min="1" max="6" class="form-control">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="mb-4">
+                        <legend class="h5 text-primary border-bottom pb-2">Confirmación</legend>
+                        <div class="form-check">
+                            <input type="checkbox" id="terminos" name="terminos" required class="form-check-input">
+                            <label for="terminos" class="form-check-label">Acepto los términos, condiciones y políticas de privacidad</label>
+                        </div>
+                    </fieldset>
+
+                    
+                    <div class="d-grid mb-4">
+                        <button type="submit" class="btn btn-primary btn-lg sombra-hover">Confirmar y Enviar datos</button>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="comentarios" class="form-label">Comentarios</label>
+                        <textarea id="comentarios" name="comentarios" maxlength="300" class="form-control" rows="3" placeholder="Opiniones, quejas, dudas. Siéntete libre de expresarte"></textarea>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    
+
+</body>
+</html>
